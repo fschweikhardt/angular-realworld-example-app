@@ -8,6 +8,9 @@
 # dependencies
 /node_modules
 
+# dev testing
+/cypress/videos
+
 # IDEs and editors
 .vscode/
 /.idea

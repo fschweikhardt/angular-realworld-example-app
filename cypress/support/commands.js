@@ -25,8 +25,8 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('login', () => {
-    cy.visit('/')
-    cy.get('[placeholder="Email"]').type('artem.bondar16@gmail.com')
-    cy.get('[placeholder="Password]').type('CypressTest1')
+    cy.visit('/login')
+    cy.get('[placeholder="Email"]').type('testaug5@hotmail.com')
+    cy.get('[placeholder="Password"]').type('testAug5')
     cy.get('form').submit()
 })
